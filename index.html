@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+
+    <link rel="icon" href="devchallenges.png" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://devchallenges.io/"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Github Jobs</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="title"><span>Github</span> Jobs</div>
+      <div class="searchBox">
+        <div class="inputSearchBox">
+          <input
+            class="textSearch"
+            type="text"
+            placeholder="Title, companies, experti..."
+          />
+          <input class="buttonSearch" type="button" value="Search" />
+        </div>
+      </div>
+    </header>
+    
+    <div class="content">
+      <aside class="filters">
+        <input type="checkbox" name="fullTime" id="fullTime" />
+        <label for="fullTime">Full time</label>
+        <p class="location">LOCATION</p>
+        <div class="inputFilterBox">
+          <input
+            class="textFilter"
+            type="text"
+            placeholder="City,state,zip code or country"
+          />
+        </div>
+
+        <div class="citiesFilter">
+          <div class="cityBox">
+            <input type="checkbox" name="London" />
+            <label for="fullTime">London</label>
+          </div>
+          <div class="cityBox">
+            <input type="checkbox" name="Amsterdam" />
+            <label for="fullTime">Amsterdam</label>
+          </div>
+          <div class="cityBox">
+            <input type="checkbox" name="New York" />
+            <label for="fullTime">New York</label>
+          </div>
+          <div class="cityBox">
+            <input type="checkbox" name="Berlin" />
+            <label for="fullTime">Berlin</label>
+          </div>
+        </div>
+      </aside>
+
+      <section class="cardsWrapper">
+        <article class="card">
+          <div class="logoJob">
+            <img src="logoJob.png" alt="logoJob" />
+          </div>
+          <div class="info">
+            <div class="enterprise">Kasisto</div>
+            <div class="titleJob">Front-end software engineer</div>
+            <div class="tagsAndFooter">
+              <div class="tag"><span>Full time</span></div>
+              <div class="footerCard">
+                <div class="city">New York</div>
+                <div class="time">5 days ago</div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="logoJob">
+            <img src="logoJob.png" alt="logoJob" />
+          </div>
+          <div class="info">
+            <div class="enterprise">Kasisto</div>
+            <div class="titleJob">Front-end software engineer</div>
+            <div class="tag"><span>Full time</span></div>
+            <div class="footerCard">
+              <div class="city">New York</div>
+              <div class="time">5 days ago</div>
+            </div>
+          </div>
+        </article>
+      </section>
+    </div>
+
+    <footer class="footer">Freud Múnera @ DevChallenges.io</footer>
+  </body>
+</html>
